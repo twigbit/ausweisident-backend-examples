@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "env": {
+    "AUSWEISIDENT_CLIENT_ID": "@ausweisident-client-id",
+    "AUSWEISIDENT_CLIENT_SECRET": "@ausweisident-client-secret"
+  },
+  "builds": [
+    { "src": "ident.ts", "use": "@now/node" }
+  ]
+}
