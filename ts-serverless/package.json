@@ -1,13 +1,14 @@
 {
-  "name": "@twigbit/ident-sdk-example-nodejs-serverless",
+  "name": "@twigbit/ident-sdk-example-ts-serverless",
   "version": "1.0.0",
-  "description": "serverless type script example for a AusweisIdent backend implementation",
+  "description": "serverless typescript example for a AusweisIDent backend implementation",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twigbit/ausweisident-backend-examples.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/twigbit/ausweisident-backend-examples#readme",
+  "homepage": "https://github.com/twigbit/ausweisident-backend-examples/ts-serverless#readme",
   "dependencies": {
     "@types/jsonwebtoken": "^8.3.2",
     "@types/node": "^12.0.10",
