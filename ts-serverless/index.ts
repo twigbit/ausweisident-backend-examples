@@ -3,9 +3,14 @@ import { AusweisIdent } from './ausweisident'
 /**
  * ###########################
  * ADJUST THE FOLLOWING VALUES
+ *
+ * discoveryEndpoint: provided to you via your AusweisIDent credential request
+ * redirectUri: the uri to this function
+ * ###########################
  */
 const discoveryEndpoint = 'https://ref-ausweisident.eid-service.de/.well-known/openid-configuration'
 const redirectUri = 'https://example.com'
+
 const clientId = process.env.AUSWEISIDENT_CLIENT_ID || ''
 const clientSecret = Buffer.from(process.env.AUSWEISIDENT_CLIENT_SECRET, 'base64').toString() || ''
 
